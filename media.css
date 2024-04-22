@@ -1,0 +1,199 @@
+
+@media (max-width:854px) {
+    .hamberger {
+        background-color: silver;
+        position: relative;
+        padding: 10px;
+        z-index: 17;
+              position: fixed;
+              width: 100%;
+    }
+   
+
+    .navdiv {
+        position: static;
+
+    }
+
+
+    .mainimg {
+        margin-top: 0;
+    }
+
+    input {
+        display: block;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        opacity: 0;
+    }
+
+    div.spans {
+        width: 30px;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    div.spans span {
+        border: 2px solid black;
+        background-color: black;
+        transform-origin: left;
+        transition: all 0.5s;
+    }
+
+    .hamberger input:checked+div.spans span:nth-child(2) {
+        display: none;
+    }
+
+    .hamberger input:checked+div.spans span:nth-child(1) {
+        transform: rotate(45deg);
+    }
+
+    .hamberger input:checked+div.spans span:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+
+    .aside {
+        padding-top: 5rem;
+        position: fixed;
+        top: -5px;
+        left: 0;
+        width: 0%;
+        overflow: hidden;
+        transition: all 0.5s;
+        z-index: -1;
+    }
+
+    .hamberger input:checked~div.aside {
+        width: 40%;
+    }
+
+    .navdiv {
+        padding: 0;
+    }
+
+    .navbar {
+        display: block;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    li {
+
+        padding: 2rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logoo {
+        display: block;
+        width: 25%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -15%);
+    }
+
+    .cartt {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 75%;
+    }
+    .cartt i{
+        font-size: 2rem;
+        padding: 0rem;
+    }
+
+    .cartt .cartpngg {
+        display: block;
+        width: 7%;
+        padding-left: 1rem;
+
+    }
+
+    .summer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .summer1 {
+        width: 100%;
+    }
+
+    .summer2 {
+        width: 100%;
+    }
+
+    .summer3 {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .summeroffer1 {
+        font-size: 4rem;
+        font-weight: bolder;
+
+    }
+
+    .summeroffer2 {
+        font-size: 5rem;
+        font-weight: bolder;
+
+    }
+
+    .summeroffer3 {
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+
+    #girlssection {
+        font-size: 3rem;
+      
+    }
+
+    #boyssection {
+        font-size: 3rem;
+      
+    }
+
+    .girlsdiv1 , .girlsdiv2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    .subdiv1{
+        margin-left: 3rem;
+        width: 75%;
+    }
+
+
+    .coloredbox{
+        padding-top: 11rem;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        padding-bottom: 20%;
+        padding-left: 30%;
+    }
+   
+    .handles{
+        width: 40%;
+        display: flex;
+    }
+    .questions{
+        margin-top: 5rem;
+    }
+    .contactinfo{
+        width: 40%;
+        margin-top: 5rem;
+    }
+}

@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+p,
+a,
+li,
+ul,
+ol {
+    font-size: 1.6rem;
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+
+/* -----------------------------section1------------ */
+
+
+
+.navdiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 3rem 0rem 3rem;
+    background-color: rgb(224, 224, 224);
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+
+
+}
+
+.logo {
+    width: 10%;
+
+}
+
+.logoo {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+
+}
+
+li {
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+li a {
+    color: black;
+    padding: 2rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    color: #ffffff;
+    background-color: rgb(144, 162, 162);
+    padding: 2rem;
+
+
+}
+
+.cart {
+    /* width: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cart i{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.cartt .cartpngg {
+    display: none;
+}
+
+.cartpng {
+    padding-left: 2rem;
+}
+
+input {
+    display: none;
+}
+
+/* ------------------------section2---------------- */
+
+.mainimg {
+    background-image: url(images/mainimg.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    background-color: hotpink;
+    margin-top: 12rem;
+
+
+}
+
+.tagline1 {
+    width: 20%;
+    margin-top: 15rem;
+    margin-left: 1rem;
+}
+
+.tagline2 {
+    width: 20%;
+    margin-top: -7%;
+    margin-left: 79%;
+}
+
+/* ----------------------section3--------------- */
+
+.mainimg1 {
+    background-color: rgb(98, 185, 219);
+    margin-top: 10rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.summer {
+    background-color: hotpink;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summer1 {
+    width: 30%;
+}
+
+.summer2 {
+    width: 30%;
+}
+
+.summer3 {
+    margin-top: 15%;
+}
+
+.summeroffer1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    font-weight: bolder;
+
+}
+
+.summeroffer2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12rem;
+    font-weight: bolder;
+
+}
+
+.summeroffer3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+/* -----------------------section4--------------------- */
+#girlssection {
+    background-color: purple;
+    margin-top: 10rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#boyssection {
+    background-color: purple;
+    margin-top: 10rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.girlsgallary1 {
+    margin-top: 5rem;
+    display: flex;
+   
+}
+
+.girlsdiv1 , .girlsdiv2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.girlsgallary2 {
+    margin-top: 5rem;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.subdiv1 {
+    width: 40%;
+    position: relative;
+}
+
+.subdiv2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: absolute;
+    background-color: plum;
+    bottom: 0;
+    height: 0;
+    transition: .7s all;
+    overflow: hidden;
+}
+
+.subdiv1:hover .subdiv2 {
+    height: 15%;
+    padding: 2rem;
+    bottom: 0%;
+
+}
+
+/* -------------------section6------------------ */
+.coloredbox{
+    background-color: rgb(250, 91, 171);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 11rem;
+}
+.handles{
+    width: 8%;
+}
+
+.contactinfo{
+    width: 10%;
+}
+.addre p{
+    padding: 0.6rem;
+    text-align: left;
+    font-size:  1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.questions p{
+    text-align: left;
+    padding: 0.3rem;
+    font-size:  1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.handles img{
+    margin-top: 3.5rem;
+    
+}
+ .pngg1{
+    margin-bottom:0.7rem;
+}
+.pngg2{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+ } 
+.pngg3{
+    margin-bottom: 1rem;
+} 
+
+.contactinfo p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.questions p:hover , .contactinfo p:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
